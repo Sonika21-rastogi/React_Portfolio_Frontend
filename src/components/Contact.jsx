@@ -117,7 +117,7 @@ const Contact = () => {
     e.preventDefault();
 
     try {
-      await axios.post("http://localhost:5000", { name, email, message });
+      await axios.post(import.meta.env.VITE_API_URL, { name, email, message });
       alert("Message sent successfully!");
       setName("");
       setEmail("");
