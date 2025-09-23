@@ -41,7 +41,7 @@ const About = () => {
           </div>
 
           {/* Right Side - Images */}
-          <div className="hidden md:block relative">
+          {/* <div className="hidden md:block relative">
             <img
               className="absolute inset-x-0 bottom-0 -mb-30 left-1/2 -translate-x-1/2 sm:left-auto sm:translate-x-0 sm:scale-90 md:scale-100 z-[-1]"
               src=""
@@ -53,7 +53,7 @@ const About = () => {
               src="https://cdn.rareblocks.xyz/collection/celebration/images/team/1/blob-shape.svg" // Replace with your image
               alt="Sonika Rastogi"
             />
-          </div>
+          </div> */}
         </div>
       </div>
     </section>
