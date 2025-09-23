@@ -5,15 +5,15 @@ const Hero = () => {
   return (
     
     <div className="min-h-screen  mb-4 bg-gray-100">
-      {/* Header */}
-      <header className="bg-blue-600 text-white p-4">
+      Header
+      <header className="bg-white-200 text-black p-2">
         <h2 id="Home" className="text-s font-bold text-center">
           Home
         </h2>
       </header>
 
       {/* Hero Section */}
-      <section className="h-[calc(100vh-64px)] w-full mx-auto py-20 xl:px-16 xs:px-8 flex md:flex-row xs:flex-col gap-4 justify-center items-center pb-10 pt-4">
+      <section className="h-[calc(100vh-64px)] w-full mx-auto py-20 xl:px-16 xs:px-8 flex md:flex-row xs:flex-col gap-4 justify-center items-center pb-10 pt-4  bg-cover bg-center relative ">
         {/* Left Side - Image */}
         <div className="w-full">
           <img
@@ -24,7 +24,7 @@ const Hero = () => {
         </div>
 
         {/* Right Side - Text */}
-        <div className="w-full flex flex-col justify-center gap-4 text-blue   text-xl text-dark :text-blue-800 md:mt-0 sm:mt-8 xs:mt-4">
+        <div className="w-full flex flex-col justify-center gap-4 text-blue text-xl text-dark :text-blue-800 md:mt-0 sm:mt-8 xs:mt-4">
           <h1 className="text-3xl font-semibold font-serif">
             Hello, I'm Sonika Rastogi
           </h1>

@@ -11,7 +11,7 @@ const Header = () => {
     <nav className="shadow-md bg-gray-200 p-4 fixed w-full top-0 left-0 z-50">
       <div className="max-w-7xl mx-auto flex justify-between items-center">
         {/* Logo */}
-        <a href="#" className="text-xl font-bold">
+        <a href="#" className="text-xl font-bold text-black"  style={{ textDecoration: "none" }} >
           MyPortfolio
         </a>
 
@@ -52,39 +52,39 @@ const Header = () => {
         </button>
 
         {/* Desktop Menu */}
-        <ul className="hidden  lg:flex space-x-6">
+        <ul className="hidden  lg:flex space-x-6 ">
           <li>
-            <a href="#home" className="text-gray-700 text-xl text-dark hover:text-blue-600">
+            <a href="#home" className="text-gray-700 text-xl text-dark hover:text-dark-600 " style={{ textDecoration: "none" }}>
               Home
             </a>
           </li>
           <li>
-            <a href="#about" className="text-gray-700 text-xl text-dark  hover:text-gray-500">
+            <a href="#about" className="text-gray-700 text-xl text-dark  hover:text-gray-500" style={{ textDecoration: "none" }}>
               About
             </a>
           </li>
           <li>
-            <a href="#education" className="text-gray-700 text-xl text-dark hover:text-gray-500">
+            <a href="#education" className="text-gray-700 text-xl text-dark hover:text-gray-500" style={{ textDecoration: "none" }}>
               Education
             </a>
           </li>
           <li>
-            <a href="#skills" className="text-gray-700 text-xl text-dark  hover:text-gray-500">
+            <a href="#skills" className="text-gray-700 text-xl text-dark  hover:text-gray-500" style={{ textDecoration: "none" }}>
               Skills
             </a>
           </li>
           <li>
-            <a href="#projects" className="text-gray-700 text-xl text-dark  hover:text-gray-500">
+            <a href="#projects" className="text-gray-700 text-xl text-dark  hover:text-gray-500" style={{ textDecoration: "none" }}>
               Projects
             </a>
           </li>
           <li>
-            <a href="#contact" className="text-gray-700 text-xl text-dark hover:text-gray-500">
+            <a href="#contact" className="text-gray-700 text-xl text-dark hover:text-gray-500" style={{ textDecoration: "none" }}>
               Contact
             </a>
           </li>
           <li>
-            <a href="#resume" className="text-gray-700 text-xl text-dark hover:text-gray-500">
+            <a href="#resume" className="text-gray-700 text-xl text-dark hover:text-gray-500" style={{ textDecoration: "none" }}>
               Resume
             </a>
           </li>
@@ -117,13 +117,13 @@ const Header = () => {
           </a>
           <a
             href="#contact"
-            className="block text-gray-700 hover:text-blue-500"
+            className="block text-gray-700 hover:text-gray-500"
           >
             Contact
           </a>
           <a
             href="#resume"
-            className="block text-gray-700 hover:text-blue-500"
+            className="block text-gray-700 hover:text-gray-500"
           >
             Resume
           </a>
